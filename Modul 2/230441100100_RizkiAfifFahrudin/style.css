@@ -1,0 +1,30 @@
+body{
+    width: auto;
+    background-color: rgb(118, 221, 239) ;
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: opx;
+}
+
+header{
+    background-color: #eaf7fd;
+    color: #1a1010;
+    padding: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: auto 300px;
+    grid-gap: 0px;
+    margin-top: 20px;
+}
+
+.menu img{
+    border-radius: 40px;
+    width: 240px;
+    height: 160px;
+    margin-left: 15px;
+}
