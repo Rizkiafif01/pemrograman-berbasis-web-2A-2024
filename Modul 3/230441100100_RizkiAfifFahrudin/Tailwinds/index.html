@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Homepage</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>About</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Navbar -->
+        <div class="navbar-center">
+          <a class="btn btn-ghost text-xl">Lingkungan Sehat</a>
+        </div>
+        <div class="navbar-end">
+          <button class="btn btn-ghost btn-circle">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+          </button>
+          <button class="btn btn-ghost btn-circle">
+            <div class="indicator">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
+              <span class="badge badge-xs badge-primary indicator-item"></span>
+            </div>
+          </button>
+        </div>
+      </div>
+      <!-- Background -->
+      <div class="hero min-h-screen" style="background-image: url(https://www.antaresenergi.com/wp-content/uploads/2019/01/1280x720-full-hd-wallpapers-1080x675.jpg);">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="max-w-md">
+            <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+            <p class="mb-5">Pohon Adalah Paru-Paru Dunia</p>
+          </div>
+        </div>
+      </div>
+      <!-- Hero -->
+      <div class="hero min-h-10 pt-14 pb-8">
+        <div class="hero-content flex-col lg:flex-row">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpFgZp4rjyOBmkhny-MNeM9SdHpj4uINI4vBgBk8vMLQ&s" class="max-w-sm rounded-lg shadow-2xl" />
+          <div>
+            <h1 class="text-5xl font-bold">Jaga Lingkungan!</h1>
+            <p class="py-5">Lingkungan perlu kita rawat dan jaga, supaya kehidupan menjadi normal, cek selengkapnya di bawah! </p>
+            <button class="btn btn-primary">Get Started</button>
+        </div>
+        </div>
+      </div>
+
+      <div class="hero min-h-12 pt-10 pb-10">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <img src="https://media.istockphoto.com/id/922735808/id/foto/hari-dunia-berubah-konsep.jpg?s=612x612&w=0&k=20&c=o9s4pb07ibNfotchIl2XXyaWNZwQILXU9yjrX36DXMg=" class="max-w-sm rounded-lg shadow-2xl" />
+          <div>
+            <h1 class="text-5xl font-bold">Dampak Kerusakan Lingkungan!</h1>
+            <p class="py-6">Dampak parahnya kerusakan lingkungan terhadap manusia dan makhluk hidup lainnya, maka dari itu jaga lingkungan sekitar supaya kita sebagai penghuni bumi akan berbahagia</p>
+            <a href="https://kumparan.com/berita-terkini/manfaat-menjaga-lingkungan-bagi-kehidupan-beserta-contohnya-21G1afe2CO4"><button class="btn btn-primary">Get Started</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div role="alert" class="alert alert-warning pt-10 pb-10">
+        <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
+        <span>Warning: Bantu Kami Menanam Pohon</span>
+      </div>
+      <!-- Carousel -->
+      <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a> 
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a> 
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div> 
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle"></a> 
+            <a href="#slide1" class="btn btn-circle"></a>
+          </div>
+        </div>
+      </div>
+    </body>
+</html>

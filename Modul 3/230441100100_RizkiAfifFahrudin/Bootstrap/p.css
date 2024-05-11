@@ -1,0 +1,27 @@
+.background{
+    background-image: url(https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg);
+    background-repeat: no-repeat;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    background-size: cover;
+    color: white; 
+    border-radius: 20px;
+}
+
+body{
+    font-family: Arial;
+    height: auto;
+}
+
+.kontak{
+    background-image: url(https://mandana.co.id/assets/img/background.png);
+    border-radius: 20px;
+    background-size: cover;
+    padding-bottom: 20%;
+    padding-top: 20%;
+    color: white;
+}
+
+.kartu{
+    object-fit: cover;
+}
